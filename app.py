@@ -50,7 +50,7 @@ if st.button("Predict"):
 # -----------------------------
 st.header("📊 EDA Dashboard")
 
-df = pd.read_csv(r"C:\Users\Aanjney\Desktop\Deploy\Student Productivity (with EDA)\student_productivity_distraction_dataset_20000.csv")
+df = pd.read_csv(r"student_productivity_distraction_dataset_20000.csv")
 
 col1, col2 = st.columns(2)
 
@@ -66,4 +66,5 @@ with col2:
     st.subheader("Productivity Distribution")
     fig2, ax2 = plt.subplots()
     sns.histplot(df["productivity_score"], kde=True)
+
     st.pyplot(fig2)
