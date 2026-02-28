@@ -184,10 +184,7 @@ Aanjney Kumawat
 Machine Learning & Data Science Enthusiast
 
 ````
-
----
-
-# ✅ requirements.txt
+ ✅ requirements.txt
 
 ```txt
 pandas==2.2.2
