@@ -6,4 +6,4 @@ seaborn
 streamlit
 joblib
 altair==4.2.2
-Python 3.10 or 3.11
+Python 3.10
