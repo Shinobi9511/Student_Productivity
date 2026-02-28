@@ -186,7 +186,6 @@ Machine Learning & Data Science Enthusiast
 ````
  ✅ requirements.txt
 
-```txt
 pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.4.2
